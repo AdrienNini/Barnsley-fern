@@ -1,0 +1,30 @@
+
+body {
+    display: grid;
+    grid-template-columns: 600px auto;
+    grid-template-areas:
+    "header header"
+    "canvas controls"
+    "footer footer";
+    grid-gap: 10px;
+}
+
+header {
+    grid-area: header;
+}
+
+footer {
+    grid-area: footer;
+}
+
+#canvasContainer {
+    grid-area: canvas;
+}
+
+#controlPanel {
+    grid-area: controls;
+}
+
+button {
+    font-size: 1em;
+}
