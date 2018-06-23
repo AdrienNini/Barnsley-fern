@@ -90,15 +90,16 @@ function drawPoint(range) {
 
 function reset() {
     background(0);
+    nPoints = 0;
     x = 0;
     y = 0;
 }
 
 function draw() {
-    for (let i = 0; i < 1000; i++) {
+    for (let i = 0; i < 100; i++) {
         drawPoint(ranges[algo]);
         nextPoint(equations[algo]);
         nPoints++;
     }
-    if (nPoints === 100000);
+    if (nPoints === 500000) noLoop();
 }

@@ -1,7 +1,7 @@
 $(document).ready(() => {
     $('#run').click((event) => {
         event.preventDefault();
-        loop();
+        if (nPoints < 500000) loop();
     });
 
     $('#stop').click((event) => {
