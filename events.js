@@ -34,6 +34,11 @@ $(document).ready(() => {
 
     $('#multi-color').click(() => {
         $('input[type=range]').prop('disabled', $('#multi-color').prop('checked'));
-    })
+    });
+
+    $('#algo').change(() => {
+        background(0);
+        algo = $('#algo').val();
+    });
 });
 

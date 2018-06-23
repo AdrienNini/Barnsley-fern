@@ -20,21 +20,28 @@
     <div id="canvasContainer"></div>
     <div id="controlPanel">
         <fieldset>
-            <legend>Explainations</legend>
-        </fieldset>
-        <fieldset>
             <legend>Controls</legend>
             <input id="multi-color" type="checkbox" checked> <label for="multi-color">Multi color</label><br>
             <label for="R">R</label> <input type="range" id="R" min="0" max="255" step="1" value="0" disabled> <span id="Rval">0</span><br>
             <label for="G">G</label> <input type="range" id="G" min="0" max="255" step="1" value="0" disabled> <span id="Gval">0</span><br>
             <label for="B">B</label> <input type="range" id="B" min="0" max="255" step="1" value="0" disabled> <span id="Bval">0</span><br>
-            <hr>
+            
+            <br>
+            
+            <label for="algo">Algorithm : </label>
+            <select id="algo">
+                <option value="default">default</option>
+                <option value="mutated">mutated</option>
+            </select>
 
+            <hr>
             <button id="run" >&#x25b6;</button><button id="stop">&#x25a0;</button><button id="reset">reset</button><br>
         </fieldset>
     </div>
     <footer>
-        <p>Footer</p>
+        <hr>
+        <p>Code based on the <a href="https://www.youtube.com/watch?v=JFugGF1URNo&t=14s">Coding Challenge #108</a> of Daniel Shiffman.</p>
+        <p><a href="https://github.com/AdrienNini/Barnsley-fern">Source code</a></p>
     </footer>
 </body>
 </html>
