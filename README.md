@@ -4,7 +4,7 @@
 
 Code based on the [Coding Challenge #108](https://www.youtube.com/watch?v=JFugGF1URNo&t=14s) of Daniel Shiffman.
 
-The original code is written is [Processig](https://processing.org), a JAVA based programming environment. I adapted it in Javascript with the [P5.js library](https://p5js.org) and [Jquery](https://jquery.com) and Refactored the code to handle different versions of the algorithm. 
+The original code is written in [Processing](https://processing.org), a JAVA based programming environment. I adapted it in Javascript with the [P5.js library](https://p5js.org) and [Jquery](https://jquery.com) and Refactored the code to handle different versions of the algorithm. 
 
 ## Explainations
 
